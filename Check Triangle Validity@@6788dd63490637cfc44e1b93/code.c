@@ -9,7 +9,7 @@ int main(){
         printf("Valid");
     }
     else if (c+a>b){
-        printf("Valid")
+        printf("Valid");
     }
     else{
         print("Invalid");
