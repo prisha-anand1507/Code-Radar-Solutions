@@ -12,8 +12,8 @@ int main(){
             if (a%i==0){
                 flag=1;
                 break;
+            }
         }
-    }
     }
 if flag==0{
     printf("Prime");
