@@ -24,6 +24,6 @@ int main(){
     }
     }
     else{
-        printf("error")
+        printf("error");
     }
 }
