@@ -9,7 +9,7 @@ int main(){
     }
     else{
         for (i = 2; i<=a; i++){
-            if (i%a==0){
+            if (a%i==0){
             flag=1;
             break;
         }
