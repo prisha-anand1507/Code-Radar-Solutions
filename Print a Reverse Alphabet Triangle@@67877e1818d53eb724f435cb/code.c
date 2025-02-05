@@ -10,6 +10,6 @@ int main(){
             ch++;
         }
         printf("\n");
-        ch='A'
+        ch='A';
     }
 }
