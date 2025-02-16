@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
     int a;
-    sxanf("%d", &a);
+    scanf("%d", &a);
     printf("%d", ~a);
 }
