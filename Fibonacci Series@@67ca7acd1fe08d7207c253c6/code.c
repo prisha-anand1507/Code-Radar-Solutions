@@ -1,7 +1,7 @@
 #include <stdio.h>
-int fibb(int n);
+int fibonacciSeries(int n);
 
-int fibb(int n){
+int fibonacciSeries(int n){
     if (n=0){
         return 0;
     }
@@ -9,6 +9,6 @@ int fibb(int n){
         return 1;
     }
     else{
-        return fibb(n-1) + fibb(n-2);
+        return fibonacciSeries(n-1) + fibonacciSeries(n-2);
     }
 }
