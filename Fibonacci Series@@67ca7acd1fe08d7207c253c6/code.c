@@ -1,11 +1,6 @@
 #include <stdio.h>
 int fibb(int n);
-int main(){
-    int num;
-    scanf("%d", &num);
-    printf("%d", fibb(num));
-    return 0;
-}
+
 int fib(int n){
     if (n=0){
         return 0;
