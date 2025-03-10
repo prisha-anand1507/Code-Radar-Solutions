@@ -11,7 +11,7 @@ int fibonacciSeries(int n){
         return 1;
     }
     else{
-        int result =  fibonacciSeries(n-1) + fibonacciSeries(n-2);
+        int result =  fibonacciSeries(n-2) + fibonacciSeries(n-3);
         printf("%d", result);
         return result;
     }
