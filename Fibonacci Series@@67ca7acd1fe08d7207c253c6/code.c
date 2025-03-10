@@ -1,7 +1,7 @@
 #include <stdio.h>
 int fibb(int n);
 
-int fib(int n){
+int fibb(int n){
     if (n=0){
         return 0;
     }
