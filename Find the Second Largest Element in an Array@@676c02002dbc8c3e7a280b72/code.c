@@ -16,6 +16,9 @@ int main(){
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
             }
+            else if(arr[j]==arr[j+1]){
+                second_largest=-1;
+            }
           
         }
     second_largest=arr[n-2];
