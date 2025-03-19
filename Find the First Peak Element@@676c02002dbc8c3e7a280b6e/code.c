@@ -2,17 +2,22 @@
 int arr1(int arr[],int arrnew[], int n){
     for (int i=0;i<n-1;i++){
         if (arr[i]>arr[i+1] && arr[i]>arr[i-1]){
-            arrnew[]=arr[i];
+            return i;
             }
     }
+    return -1;
 }
 int main(){
-    int num,user;
+    int num,arr[num];
     scanf("%d", &num);
-    int arr[num];
     for (int i=0;i<num;i++){
-        scanf("%d",&user);
-        arr[num]=user;
+        scanf("%d",&arr[i]);
     }
-    printf("%d", arrnew[0]);
+    int peakindex= arr1(arr,num);
+    if peakindex==1{
+        printf("%d", arr[peakindex]);
+    }
+    else{
+        printf("-1");
+    }
 }
