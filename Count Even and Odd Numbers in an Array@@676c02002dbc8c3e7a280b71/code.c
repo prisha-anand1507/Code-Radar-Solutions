@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int evenodd(int arr[], int n){
+int evenodd(int arr[], int n,even,odd){
     int even=0,odd=0;
     for (int i=0;i<n;i++){
         if (arr[i]%2==0){
@@ -19,6 +19,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d", &arr[i]);
     }
-    evenodd(arr,n);
+    evenodd(arr,n,even,odd);
     printf("%d %d", even,odd);
 }
