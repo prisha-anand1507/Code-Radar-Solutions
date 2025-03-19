@@ -15,10 +15,10 @@ int main(){
     for (int i=0;i<num;i++){
         scanf("%d", &arr[i]);
     }
-}
 if (is_sorted(arr,num)){
     printf("Sorted");
 }
 else{
     printf("Not Sorted");
+}
 }
