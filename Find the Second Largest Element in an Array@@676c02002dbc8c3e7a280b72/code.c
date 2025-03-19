@@ -18,11 +18,6 @@ int main(){
             
         }
     }
-    if (arr[j]==arr[j+1]){
-                printf("-1");
-            }
-    if (n<2){
-                printf("-1");
-            }
+   
     printf("%d", arr[n-2]);
 }
