@@ -21,5 +21,5 @@ int main(){
         scanf("%d", &arr[i]);
     }
     minmax(arr,n);
-    printf("%d %d", arr[1]);
+    printf("%d %d", arr[n-2]);
 }
