@@ -18,6 +18,9 @@ int main(){
             
         }
     }
+    if (n<2){
+        printf("-1");
+    }
    
     printf("%d", arr[n-2]);
 }
