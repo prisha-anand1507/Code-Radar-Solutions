@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int minmax(int arr[], int n){
+void minmax(int arr[], int n){
     int temp;
     for (int i=0;i<n;i++){
         for (int j=0; j<n-i-1;j++){
@@ -18,7 +18,7 @@ int main(){
     scanf("%d", &n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d", arr[i]);
+        scanf("%d", &arr[i]);
     }
     minmax(arr,n);
     printf("%d %d", arr[0], arr[n-1]);
