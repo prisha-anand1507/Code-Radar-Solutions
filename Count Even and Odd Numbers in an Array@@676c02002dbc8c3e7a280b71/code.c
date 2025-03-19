@@ -4,10 +4,10 @@ int evenodd(int arr[], int n){
     int even=0,odd=0;
     for (int i=0;i<n;i++){
         if (arr[i]%2==0){
-            even=even+1;
+            return even=even+1;
         }
         else{
-            odd=odd+1;
+            return odd=odd+1;
         }
     }
 }
