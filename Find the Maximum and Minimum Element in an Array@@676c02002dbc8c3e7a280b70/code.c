@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int minmax(int arr[], int n){
