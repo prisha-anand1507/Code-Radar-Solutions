@@ -16,13 +16,14 @@ int main(){
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
             }
-            else if(arr[j]==arr[j+1]){
-                second_largest=-1;
-            }
-          
         }
     second_largest=arr[n-2];
     }}
+    for (int i=0;i<n;i++){
+        if (arr[i]==arr[i+1]){
+            second_largest=-1;
+        }
+    }
    
     printf("%d", second_largest);
 }
