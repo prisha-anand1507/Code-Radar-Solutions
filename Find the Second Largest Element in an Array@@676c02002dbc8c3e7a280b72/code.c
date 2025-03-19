@@ -3,6 +3,9 @@
 int main(){
     int n,second_largest= -1;
     scanf("%d", &n);
+    if (n<2){
+        return -1;
+    }
     int arr[n];
     int temp;
     for(int i=0;i<n;i++){
