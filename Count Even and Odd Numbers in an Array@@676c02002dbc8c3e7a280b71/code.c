@@ -8,10 +8,10 @@ int main(){
     }
     for (int i=0;i<n;i++){
         if (arr[i]%2==0){
-            even=even+1;
+            even++;
         }
         else{
-            odd=odd+1;
+            odd++;
         }
     printf("%d %d", even,odd);
 }
