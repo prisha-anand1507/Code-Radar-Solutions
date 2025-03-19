@@ -4,7 +4,7 @@ int main(){
     int n,second_largest= -1;
     scanf("%d", &n);
     if (n<2){
-        return -1;
+        printf("-1");
     }
     int arr[n];
     int temp;
