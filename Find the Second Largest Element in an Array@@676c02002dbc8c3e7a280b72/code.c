@@ -20,7 +20,7 @@ int main(){
     second_largest=arr[n-2];
     }}
     for (int i=0;i<n;i++){
-        if (arr[i]==arr[i+1]==arr[i-1]){
+        if (arr[i]==arr[i+1]){
             second_largest=-1;
         }
     }
