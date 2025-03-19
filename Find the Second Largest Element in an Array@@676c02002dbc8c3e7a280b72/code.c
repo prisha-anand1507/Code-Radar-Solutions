@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int n;
+    int n,second_largest= -1;
     scanf("%d", &n);
     int arr[n];
     int temp;
@@ -15,9 +15,10 @@ int main(){
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
             }
-            
+          
         }
+    second_largest=arr[n-2];
     }
    
-    printf("%d", arr[n-2]);
+    printf("%d", second_largest);
 }
